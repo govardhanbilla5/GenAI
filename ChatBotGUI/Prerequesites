@@ -1,0 +1,19 @@
+SETUP
+Creating Hugging Face Access Token
+To create a hugging face access token, go to the hugging face website and login to your account. After that, go to Settings > Access Tokens and click on "Create new token".
+
+  1. Go to the Hugging Face website and log in to your account.
+  2. Navigate to Settings > Access Tokens.
+  3. Click on "Create new token."
+  4. Change the token type to "Read" and create the token.
+  5. Copy the generated API key for future use.
+  6. Model Selection: Choose model in that
+  7. And use in code
+
+
+DEPENDENCIES
+pip install -r requirements.txt
+
+
+TO RUN THE APPLICATION
+streamlit run .\app.py
