@@ -1,0 +1,8 @@
+langchain-core
+langchain-community
+langchain
+langchain-huggingface
+#langchain_openai
+langchain-ollama
+streamlit
+dotenv
