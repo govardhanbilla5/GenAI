@@ -1,14 +1,18 @@
 SETUP
-Creating Hugging Face Access Token
-To create a hugging face access token, go to the hugging face website and login to your account. After that, go to Settings > Access Tokens and click on "Create new token".
-
-  1. Go to the Hugging Face website and log in to your account.
-  2. Navigate to Settings > Access Tokens.
-  3. Click on "Create new token."
-  4. Change the token type to "Read" and create the token.
-  5. Copy the generated API key for future use.
-  6. Model Selection: Choose model in that
-  7. And use in code
+Setting Up and Running Open-Source LLaMA Models Locally Using Ollama
+To run open-source LLaMA models on your local system, follow the steps below:
+  1. Install Ollama on Your System
+      1. Visit https://ollama.com/download/windows
+      2. Download the .exe file appropriate for your system and run the installer.
+      3. This will install the Ollama runtime and CLI on your local machine.
+  2. To download or pull particular models
+      1. Navigate to https://github.com/ollama/ollama
+      2. Scroll to the model list table to explore available LLaMA-based models.
+      3. Choose a model and run it using the command prompt.
+          ollama run gemma3:1b
+  3. Add this model in code
+  4. Check ollama document for further usage
+      https://github.com/ollama/ollama
 
 
 DEPENDENCIES
